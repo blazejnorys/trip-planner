@@ -1,5 +1,6 @@
 package com.elkdev.tripPlanner;
 
+import com.elkdev.tripPlanner.security.model.UserRole;
 import com.elkdev.tripPlanner.user.model.User;
 import com.elkdev.tripPlanner.user.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +29,7 @@ public class TripPlannerApplication {
 			User user = new User();
 			user.setEnabled(true);
 			user.setUsername("login");
+			user.setUserRole(UserRole.ROLE_USER);
 			user.setPassword(passwordEncoder.encode("password"));
 			userRepository.save(user);
 		};
