@@ -1,0 +1,56 @@
+<h1>Create your next trip</h1>
+<form clrForm (ngSubmit)="onSubmit(f)" #f="ngForm">
+  <clr-input-container>
+    <label for="title">Title</label>
+    <input clrInput type="text" [ngModel]="title" name="title" id="title"/>
+  </clr-input-container>
+  <clr-textarea-container>
+    <label for="description">Description</label>
+    <textarea clrTextarea id="description" rows="5" ngModel name="description"></textarea>
+  </clr-textarea-container>
+  <p></p>
+  <clr-dropdown>
+    <button type="button" class="btn btn-outline-primary" clrDropdownTrigger>
+      Add country
+      <clr-icon shape="caret down"></clr-icon>
+    </button>
+    <clr-dropdown-menu clrPosition="bottom-right" *clrIfOpen>
+      <label class="dropdown-header">Select contry</label>
+      <clr-dropdown *ngFor="let continent of continents">
+        <button type="button" clrDropdownTrigger>{{continent.continentName}}</button>
+        <clr-dropdown-menu>
+          <button type="button" clrDropdownItem (click)="selectCountry(country)" name="addCountryButton" ngModel
+                  *ngFor="let country of continent.countryList">
+            {{country.countryName}} <img [src]="country.countryFlag"
+                                         onerror="this.src='';">
+          </button>
+        </clr-dropdown-menu>
+      </clr-dropdown>
+    </clr-dropdown-menu>
+  </clr-dropdown>
+  <p></p>
+  <table class="table" *ngIf="selectedCountries.length>0">
+    <thead>
+    <tr>
+      <th>Country:</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let country of selectedCountries" >
+      <td>{{country.countryName}} <img [src]="country.countryFlag"
+                                       onerror="this.src='';"></td>
+    </tr>
+    </tbody>
+  </table>
+
+  <div class="form-group">
+    <label for="beginningDate">Beginning date</label>
+    <input type="date" id="beginningDate" name="beginningDate" ngModel clrDate>
+  </div>
+
+  <div class="form-group">
+    <label for="endingDate">Ending date</label>
+    <input type="date" id="endingDate" name="endingDate" ngModel clrDate>
+  </div>
+  <button class="btn-primary" type="submit">Hit Da Baton</button>
+</form>

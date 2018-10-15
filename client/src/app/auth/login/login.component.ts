@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
-import {MatDialog} from '@angular/material';
 import {AuthService} from '../core/auth.service';
 import {TokenStorage} from '../core/token.storage';
 
@@ -11,7 +10,7 @@ import {TokenStorage} from '../core/token.storage';
 })
 export class LoginComponent {
 
-  constructor(private router: Router, public dialog: MatDialog, private authService: AuthService, private token: TokenStorage) {
+  constructor(private router: Router, private authService: AuthService, private token: TokenStorage) {
   }
 
   username: string;
@@ -21,7 +20,7 @@ export class LoginComponent {
     this.authService.attemptAuth(this.username, this.password).subscribe(
         data => {
           this.token.saveToken(data.token);
-          this.router.navigate(['user']);
+          this.router.navigate(['main-page']);
         }
     );
   }

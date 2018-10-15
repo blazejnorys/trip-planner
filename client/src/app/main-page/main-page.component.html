@@ -1,0 +1,14 @@
+<div class="container-fluid">
+  <div class="row">
+    <!--<div class="col-md-6">-->
+      <div [ngClass]="at.selectedTrip != null ? 'col-md-6': 'col-md-12'">
+      <h1>Welcome {{name}} to triPPlanner</h1>
+      <h3>How are you today?</h3>
+      <h3>List of my last trips:</h3>
+      <app-trip #at></app-trip>
+      </div>
+      <div class="col-md-6">
+      <app-trip-details [selectedTrip]="at.selectedTrip"></app-trip-details>
+      </div>
+  </div>
+</div>

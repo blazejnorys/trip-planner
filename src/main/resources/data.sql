@@ -1,0 +1,353 @@
+
+INSERT INTO CONTINENTS (cotinent_code, continent_name) VALUES ('AF', 'Africa');
+INSERT INTO CONTINENTS (cotinent_code, continent_name) VALUES ('AS', 'Asia');
+INSERT INTO CONTINENTS (cotinent_code, continent_name) VALUES ('EU', 'Europe');
+INSERT INTO CONTINENTS (cotinent_code, continent_name) VALUES ('NA', 'North America');
+INSERT INTO CONTINENTS (cotinent_code, continent_name) VALUES ('SA', 'South America');
+INSERT INTO CONTINENTS (cotinent_code, continent_name) VALUES ('OC', 'Oceania');
+INSERT INTO CONTINENTS (cotinent_code, continent_name) VALUES ('AN', 'Antarctica');
+
+INSERT INTO COUNTRIES (country_code, continent_code, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('AF', 'AS', 'Afghanistan', 'AFG', '004', 'Islamic Republic of Afghanistan');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('AX', 'EU', 'Åland Islands', 'ALA', '248', 'Åland Islands');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('AL', 'EU', 'Albania', 'ALB', '008', 'Republic of Albania');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('DZ', 'AF', 'Algeria', 'DZA', '012', 'People''s Democratic Republic of Algeria');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('AS', 'OC', 'American Samoa', 'ASM', '016', 'American Samoa');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('AD', 'EU', 'Andorra', 'AND', '020', 'Principality of Andorra');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('AO', 'AF', 'Angola', 'AGO', '024', 'Republic of Angola');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('AI', 'NA', 'Anguilla', 'AIA', '660', 'Anguilla');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('AQ', 'AN', 'Antarctica', 'ATA', '010', 'Antarctica (the territory South of 60 deg S)');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('AG', 'NA', 'Antigua and Barbuda', 'ATG', '028', 'Antigua and Barbuda');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('AR', 'SA', 'Argentina', 'ARG', '032', 'Argentine Republic');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('AM', 'AS', 'Armenia', 'ARM', '051', 'Republic of Armenia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('AW', 'NA', 'Aruba', 'ABW', '533', 'Aruba');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('AU', 'OC', 'Australia', 'AUS', '036', 'Commonwealth of Australia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('AT', 'EU', 'Austria', 'AUT', '040', 'Republic of Austria');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('AZ', 'AS', 'Azerbaijan', 'AZE', '031', 'Republic of Azerbaijan');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BS', 'NA', 'Bahamas', 'BHS', '044', 'Commonwealth of the Bahamas');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BH', 'AS', 'Bahrain', 'BHR', '048', 'Kingdom of Bahrain');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BD', 'AS', 'Bangladesh', 'BGD', '050', 'People''s Republic of Bangladesh');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BB', 'NA', 'Barbados', 'BRB', '052', 'Barbados');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BY', 'EU', 'Belarus', 'BLR', '112', 'Republic of Belarus');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BE', 'EU', 'Belgium', 'BEL', '056', 'Kingdom of Belgium');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BZ', 'NA', 'Belize', 'BLZ', '084', 'Belize');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BJ', 'AF', 'Benin', 'BEN', '204', 'Republic of Benin');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BM', 'NA', 'Bermuda', 'BMU', '060', 'Bermuda');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BT', 'AS', 'Bhutan', 'BTN', '064', 'Kingdom of Bhutan');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BO', 'SA', 'Bolivia', 'BOL', '068', 'Plurinational State of Bolivia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BQ', 'NA', 'Bonaire, Sint Eustatius and Saba', 'BES', '535', 'Bonaire, Sint Eustatius and Saba');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BA', 'EU', 'Bosnia and Herzegovina', 'BIH', '070', 'Bosnia and Herzegovina');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BW', 'AF', 'Botswana', 'BWA', '072', 'Republic of Botswana');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BV', 'AN', 'Bouvet Island (Bouvetoya);', 'BVT', '074', 'Bouvet Island (Bouvetoya);');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BR', 'SA', 'Brazil', 'BRA', '076', 'Federative Republic of Brazil');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('IO', 'AS', 'British Indian Ocean Territory (Chagos Archipelago);', 'IOT', '086', 'British Indian Ocean Territory (Chagos Archipelago);');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('VG', 'NA', 'British Virgin Islands', 'VGB', '092', 'British Virgin Islands');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BN', 'AS', 'Brunei Darussalam', 'BRN', '096', 'Brunei Darussalam');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BG', 'EU', 'Bulgaria', 'BGR', '100', 'Republic of Bulgaria');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BF', 'AF', 'Burkina Faso', 'BFA', '854', 'Burkina Faso');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BI', 'AF', 'Burundi', 'BDI', '108', 'Republic of Burundi');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('KH', 'AS', 'Cambodia', 'KHM', '116', 'Kingdom of Cambodia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('CM', 'AF', 'Cameroon', 'CMR', '120', 'Republic of Cameroon');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('CA', 'NA', 'Canada', 'CAN', '124', 'Canada');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('CV', 'AF', 'Cape Verde', 'CPV', '132', 'Republic of Cape Verde');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('KY', 'NA', 'Cayman Islands', 'CYM', '136', 'Cayman Islands');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('CF', 'AF', 'Central African Republic', 'CAF', '140', 'Central African Republic');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('TD', 'AF', 'Chad', 'TCD', '148', 'Republic of Chad');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('CL', 'SA', 'Chile', 'CHL', '152', 'Republic of Chile');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('CN', 'AS', 'China', 'CHN', '156', 'People''s Republic of China');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('CX', 'AS', 'Christmas Island', 'CXR', '162', 'Christmas Island');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('CC', 'AS', 'Cocos (Keeling); Islands', 'CCK', '166', 'Cocos (Keeling); Islands');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('CO', 'SA', 'Colombia', 'COL', '170', 'Republic of Colombia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('KM', 'AF', 'Comoros', 'COM', '174', 'Union of the Comoros');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('CD', 'AF', 'Congo', 'COD', '180', 'Democratic Republic of the Congo');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('CG', 'AF', 'Congo', 'COG', '178', 'Republic of the Congo');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('CK', 'OC', 'Cook Islands', 'COK', '184', 'Cook Islands');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('CR', 'NA', 'Costa Rica', 'CRI', '188', 'Republic of Costa Rica');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('CI', 'AF', 'Cote d''Ivoire', 'CIV', '384', 'Republic of Cote d''Ivoire');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('HR', 'EU', 'Croatia', 'HRV', '191', 'Republic of Croatia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('CU', 'NA', 'Cuba', 'CUB', '192', 'Republic of Cuba');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('CW', 'NA', 'Curaçao', 'CUW', '531', 'Curaçao');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('CY', 'AS', 'Cyprus', 'CYP', '196', 'Republic of Cyprus');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('CZ', 'EU', 'Czech Republic', 'CZE', '203', 'Czech Republic');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('DK', 'EU', 'Denmark', 'DNK', '208', 'Kingdom of Denmark');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('DJ', 'AF', 'Djibouti', 'DJI', '262', 'Republic of Djibouti');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('DM', 'NA', 'Dominica', 'DMA', '212', 'Commonwealth of Dominica');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('DO', 'NA', 'Dominican Republic', 'DOM', '214', 'Dominican Republic');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('EC', 'SA', 'Ecuador', 'ECU', '218', 'Republic of Ecuador');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('EG', 'AF', 'Egypt', 'EGY', '818', 'Arab Republic of Egypt');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('SV', 'NA', 'El Salvador', 'SLV', '222', 'Republic of El Salvador');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('GQ', 'AF', 'Equatorial Guinea', 'GNQ', '226', 'Republic of Equatorial Guinea');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('ER', 'AF', 'Eritrea', 'ERI', '232', 'State of Eritrea');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('EE', 'EU', 'Estonia', 'EST', '233', 'Republic of Estonia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('ET', 'AF', 'Ethiopia', 'ETH', '231', 'Federal Democratic Republic of Ethiopia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('FO', 'EU', 'Faroe Islands', 'FRO', '234', 'Faroe Islands');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('FK', 'SA', 'Falkland Islands (Malvinas);', 'FLK', '238', 'Falkland Islands (Malvinas);');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('FJ', 'OC', 'Fiji', 'FJI', '242', 'Republic of Fiji');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('FI', 'EU', 'Finland', 'FIN', '246', 'Republic of Finland');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('FR', 'EU', 'France', 'FRA', '250', 'French Republic');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('GF', 'SA', 'French Guiana', 'GUF', '254', 'French Guiana');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('PF', 'OC', 'French Polynesia', 'PYF', '258', 'French Polynesia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('TF', 'AN', 'French Southern Territories', 'ATF', '260', 'French Southern Territories');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('GA', 'AF', 'Gabon', 'GAB', '266', 'Gabonese Republic');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('GM', 'AF', 'Gambia', 'GMB', '270', 'Republic of the Gambia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('GE', 'AS', 'Georgia', 'GEO', '268', 'Georgia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('DE', 'EU', 'Germany', 'DEU', '276', 'Federal Republic of Germany');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('GH', 'AF', 'Ghana', 'GHA', '288', 'Republic of Ghana');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('GI', 'EU', 'Gibraltar', 'GIB', '292', 'Gibraltar');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('GR', 'EU', 'Greece', 'GRC', '300', 'Hellenic Republic Greece');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('GL', 'NA', 'Greenland', 'GRL', '304', 'Greenland');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('GD', 'NA', 'Grenada', 'GRD', '308', 'Grenada');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('GP', 'NA', 'Guadeloupe', 'GLP', '312', 'Guadeloupe');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('GU', 'OC', 'Guam', 'GUM', '316', 'Guam');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('GT', 'NA', 'Guatemala', 'GTM', '320', 'Republic of Guatemala');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('GG', 'EU', 'Guernsey', 'GGY', '831', 'Bailiwick of Guernsey');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('GN', 'AF', 'Guinea', 'GIN', '324', 'Republic of Guinea');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('GW', 'AF', 'Guinea-Bissau', 'GNB', '624', 'Republic of Guinea-Bissau');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('GY', 'SA', 'Guyana', 'GUY', '328', 'Co-operative Republic of Guyana');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('HT', 'NA', 'Haiti', 'HTI', '332', 'Republic of Haiti');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('HM', 'AN', 'Heard Island and McDonald Islands', 'HMD', '334', 'Heard Island and McDonald Islands');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('VA', 'EU', 'Holy See (Vatican City State);', 'VAT', '336', 'Holy See (Vatican City State);');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('HN', 'NA', 'Honduras', 'HND', '340', 'Republic of Honduras');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('HK', 'AS', 'Hong Kong', 'HKG', '344', 'Hong Kong Special Administrative Region of China');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('HU', 'EU', 'Hungary', 'HUN', '348', 'Hungary');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('IS', 'EU', 'Iceland', 'ISL', '352', 'Republic of Iceland');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('IN', 'AS', 'India', 'IND', '356', 'Republic of India');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('ID', 'AS', 'Indonesia', 'IDN', '360', 'Republic of Indonesia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('IR', 'AS', 'Iran', 'IRN', '364', 'Islamic Republic of Iran');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('IQ', 'AS', 'Iraq', 'IRQ', '368', 'Republic of Iraq');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('IE', 'EU', 'Ireland', 'IRL', '372', 'Ireland');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('IM', 'EU', 'Isle of Man', 'IMN', '833', 'Isle of Man');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('IL', 'AS', 'Israel', 'ISR', '376', 'State of Israel');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('IT', 'EU', 'Italy', 'ITA', '380', 'Italian Republic');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('JM', 'NA', 'Jamaica', 'JAM', '388', 'Jamaica');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('JP', 'AS', 'Japan', 'JPN', '392', 'Japan');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('JE', 'EU', 'Jersey', 'JEY', '832', 'Bailiwick of Jersey');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('JO', 'AS', 'Jordan', 'JOR', '400', 'Hashemite Kingdom of Jordan');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('KZ', 'AS', 'Kazakhstan', 'KAZ', '398', 'Republic of Kazakhstan');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('KE', 'AF', 'Kenya', 'KEN', '404', 'Republic of Kenya');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('KI', 'OC', 'Kiribati', 'KIR', '296', 'Republic of Kiribati');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('KP', 'AS', 'Korea', 'PRK', '408', 'Democratic People''s Republic of Korea');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('KR', 'AS', 'Korea', 'KOR', '410', 'Republic of Korea');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('KW', 'AS', 'Kuwait', 'KWT', '414', 'State of Kuwait');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('KG', 'AS', 'Kyrgyz Republic', 'KGZ', '417', 'Kyrgyz Republic');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('LA', 'AS', 'Lao People''s Democratic Republic', 'LAO', '418', 'Lao People''s Democratic Republic');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('LV', 'EU', 'Latvia', 'LVA', '428', 'Republic of Latvia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('LB', 'AS', 'Lebanon', 'LBN', '422', 'Lebanese Republic');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('LS', 'AF', 'Lesotho', 'LSO', '426', 'Kingdom of Lesotho');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('LR', 'AF', 'Liberia', 'LBR', '430', 'Republic of Liberia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('LY', 'AF', 'Libya', 'LBY', '434', 'Libya');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('LI', 'EU', 'Liechtenstein', 'LIE', '438', 'Principality of Liechtenstein');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('LT', 'EU', 'Lithuania', 'LTU', '440', 'Republic of Lithuania');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('LU', 'EU', 'Luxembourg', 'LUX', '442', 'Grand Duchy of Luxembourg');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MO', 'AS', 'Macao', 'MAC', '446', 'Macao Special Administrative Region of China');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MK', 'EU', 'Macedonia', 'MKD', '807', 'Republic of Macedonia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MG', 'AF', 'Madagascar', 'MDG', '450', 'Republic of Madagascar');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MW', 'AF', 'Malawi', 'MWI', '454', 'Republic of Malawi');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MY', 'AS', 'Malaysia', 'MYS', '458', 'Malaysia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MV', 'AS', 'Maldives', 'MDV', '462', 'Republic of Maldives');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('ML', 'AF', 'Mali', 'MLI', '466', 'Republic of Mali');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MT', 'EU', 'Malta', 'MLT', '470', 'Republic of Malta');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MH', 'OC', 'Marshall Islands', 'MHL', '584', 'Republic of the Marshall Islands');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MQ', 'NA', 'Martinique', 'MTQ', '474', 'Martinique');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MR', 'AF', 'Mauritania', 'MRT', '478', 'Islamic Republic of Mauritania');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MU', 'AF', 'Mauritius', 'MUS', '480', 'Republic of Mauritius');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('YT', 'AF', 'Mayotte', 'MYT', '175', 'Mayotte');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MX', 'NA', 'Mexico', 'MEX', '484', 'United Mexican States');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('FM', 'OC', 'Micronesia', 'FSM', '583', 'Federated States of Micronesia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MD', 'EU', 'Moldova', 'MDA', '498', 'Republic of Moldova');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MC', 'EU', 'Monaco', 'MCO', '492', 'Principality of Monaco');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MN', 'AS', 'Mongolia', 'MNG', '496', 'Mongolia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('ME', 'EU', 'Montenegro', 'MNE', '499', 'Montenegro');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MS', 'NA', 'Montserrat', 'MSR', '500', 'Montserrat');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MA', 'AF', 'Morocco', 'MAR', '504', 'Kingdom of Morocco');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MZ', 'AF', 'Mozambique', 'MOZ', '508', 'Republic of Mozambique');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MM', 'AS', 'Myanmar', 'MMR', '104', 'Republic of the Union of Myanmar');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('NA', 'AF', 'Namibia', 'NAM', '516', 'Republic of Namibia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('NR', 'OC', 'Nauru', 'NRU', '520', 'Republic of Nauru');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('NP', 'AS', 'Nepal', 'NPL', '524', 'Federal Democratic Republic of Nepal');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('NL', 'EU', 'Netherlands', 'NLD', '528', 'Kingdom of the Netherlands');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('NC', 'OC', 'New Caledonia', 'NCL', '540', 'New Caledonia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('NZ', 'OC', 'New Zealand', 'NZL', '554', 'New Zealand');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('NI', 'NA', 'Nicaragua', 'NIC', '558', 'Republic of Nicaragua');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('NE', 'AF', 'Niger', 'NER', '562', 'Republic of Niger');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('NG', 'AF', 'Nigeria', 'NGA', '566', 'Federal Republic of Nigeria');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('NU', 'OC', 'Niue', 'NIU', '570', 'Niue');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('NF', 'OC', 'Norfolk Island', 'NFK', '574', 'Norfolk Island');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MP', 'OC', 'Northern Mariana Islands', 'MNP', '580', 'Commonwealth of the Northern Mariana Islands');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('NO', 'EU', 'Norway', 'NOR', '578', 'Kingdom of Norway');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('OM', 'AS', 'Oman', 'OMN', '512', 'Sultanate of Oman');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('PK', 'AS', 'Pakistan', 'PAK', '586', 'Islamic Republic of Pakistan');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('PW', 'OC', 'Palau', 'PLW', '585', 'Republic of Palau');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('PS', 'AS', 'Palestine', 'PSE', '275', 'State of Palestine');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('PA', 'NA', 'Panama', 'PAN', '591', 'Republic of Panama');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('PG', 'OC', 'Papua New Guinea', 'PNG', '598', 'Independent State of Papua New Guinea');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('PY', 'SA', 'Paraguay', 'PRY', '600', 'Republic of Paraguay');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('PE', 'SA', 'Peru', 'PER', '604', 'Republic of Peru');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('PH', 'AS', 'Philippines', 'PHL', '608', 'Republic of the Philippines');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('PN', 'OC', 'Pitcairn Islands', 'PCN', '612', 'Pitcairn Islands');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('PL', 'EU', 'Poland', 'POL', '616', 'Republic of Poland');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('PT', 'EU', 'Portugal', 'PRT', '620', 'Portuguese Republic');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('PR', 'NA', 'Puerto Rico', 'PRI', '630', 'Commonwealth of Puerto Rico');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('QA', 'AS', 'Qatar', 'QAT', '634', 'State of Qatar');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('RE', 'AF', 'Réunion', 'REU', '638', 'Réunion');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('RO', 'EU', 'Romania', 'ROU', '642', 'Romania');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('RU', 'EU', 'Russian Federation', 'RUS', '643', 'Russian Federation');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('RW', 'AF', 'Rwanda', 'RWA', '646', 'Republic of Rwanda');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('BL', 'NA', 'Saint Barthélemy', 'BLM', '652', 'Saint Barthélemy');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('SH', 'AF', 'Saint Helena, Ascension and Tristan da Cunha', 'SHN', '654', 'Saint Helena, Ascension and Tristan da Cunha');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('KN', 'NA', 'Saint Kitts and Nevis', 'KNA', '659', 'Federation of Saint Kitts and Nevis');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('LC', 'NA', 'Saint Lucia', 'LCA', '662', 'Saint Lucia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('MF', 'NA', 'Saint Martin', 'MAF', '663', 'Saint Martin (French part);');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('PM', 'NA', 'Saint Pierre and Miquelon', 'SPM', '666', 'Saint Pierre and Miquelon');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('VC', 'NA', 'Saint Vincent and the Grenadines', 'VCT', '670', 'Saint Vincent and the Grenadines');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('WS', 'OC', 'Samoa', 'WSM', '882', 'Independent State of Samoa');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('SM', 'EU', 'San Marino', 'SMR', '674', 'Republic of San Marino');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('ST', 'AF', 'Sao Tome and Principe', 'STP', '678', 'Democratic Republic of Sao Tome and Principe');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('SA', 'AS', 'Saudi Arabia', 'SAU', '682', 'Kingdom of Saudi Arabia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('SN', 'AF', 'Senegal', 'SEN', '686', 'Republic of Senegal');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('RS', 'EU', 'Serbia', 'SRB', '688', 'Republic of Serbia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('SC', 'AF', 'Seychelles', 'SYC', '690', 'Republic of Seychelles');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('SL', 'AF', 'Sierra Leone', 'SLE', '694', 'Republic of Sierra Leone');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('SG', 'AS', 'Singapore', 'SGP', '702', 'Republic of Singapore');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('SX', 'NA', 'Sint Maarten (Dutch part);', 'SXM', '534', 'Sint Maarten (Dutch part);');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('SK', 'EU', 'Slovakia (Slovak Republic);', 'SVK', '703', 'Slovakia (Slovak Republic);');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('SI', 'EU', 'Slovenia', 'SVN', '705', 'Republic of Slovenia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('SB', 'OC', 'Solomon Islands', 'SLB', '090', 'Solomon Islands');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('SO', 'AF', 'Somalia', 'SOM', '706', 'Federal Republic of Somalia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('ZA', 'AF', 'South Africa', 'ZAF', '710', 'Republic of South Africa');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('GS', 'AN', 'South Georgia and the South Sandwich Islands', 'SGS', '239', 'South Georgia and the South Sandwich Islands');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('SS', 'AF', 'South Sudan', 'SSD', '728', 'Republic of South Sudan');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('ES', 'EU', 'Spain', 'ESP', '724', 'Kingdom of Spain');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('LK', 'AS', 'Sri Lanka', 'LKA', '144', 'Democratic Socialist Republic of Sri Lanka');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('SD', 'AF', 'Sudan', 'SDN', '729', 'Republic of Sudan');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('SR', 'SA', 'Suriname', 'SUR', '740', 'Republic of Suriname');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('SJ', 'EU', 'Svalbard & Jan Mayen Islands', 'SJM', '744', 'Svalbard & Jan Mayen Islands');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('SZ', 'AF', 'Swaziland', 'SWZ', '748', 'Kingdom of Swaziland');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('SE', 'EU', 'Sweden', 'SWE', '752', 'Kingdom of Sweden');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('CH', 'EU', 'Switzerland', 'CHE', '756', 'Swiss Confederation');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('SY', 'AS', 'Syrian Arab Republic', 'SYR', '760', 'Syrian Arab Republic');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('TW', 'AS', 'Taiwan', 'TWN', '158', 'Taiwan, Province of China');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('TJ', 'AS', 'Tajikistan', 'TJK', '762', 'Republic of Tajikistan');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('TZ', 'AF', 'Tanzania', 'TZA', '834', 'United Republic of Tanzania');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('TH', 'AS', 'Thailand', 'THA', '764', 'Kingdom of Thailand');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('TL', 'AS', 'Timor-Leste', 'TLS', '626', 'Democratic Republic of Timor-Leste');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('TG', 'AF', 'Togo', 'TGO', '768', 'Togolese Republic');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('TK', 'OC', 'Tokelau', 'TKL', '772', 'Tokelau');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('TO', 'OC', 'Tonga', 'TON', '776', 'Kingdom of Tonga');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('TT', 'NA', 'Trinidad and Tobago', 'TTO', '780', 'Republic of Trinidad and Tobago');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('TN', 'AF', 'Tunisia', 'TUN', '788', 'Tunisian Republic');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('TR', 'AS', 'Turkey', 'TUR', '792', 'Republic of Turkey');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('TM', 'AS', 'Turkmenistan', 'TKM', '795', 'Turkmenistan');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('TC', 'NA', 'Turks and Caicos Islands', 'TCA', '796', 'Turks and Caicos Islands');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('TV', 'OC', 'Tuvalu', 'TUV', '798', 'Tuvalu');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('UG', 'AF', 'Uganda', 'UGA', '800', 'Republic of Uganda');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('UA', 'EU', 'Ukraine', 'UKR', '804', 'Ukraine');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('AE', 'AS', 'United Arab Emirates', 'ARE', '784', 'United Arab Emirates');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('GB', 'EU', 'United Kingdom of Great Britain & Northern Ireland', 'GBR', '826', 'United Kingdom of Great Britain & Northern Ireland');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('US', 'NA', 'United States of America', 'USA', '840', 'United States of America');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('UM', 'OC', 'United States Minor Outlying Islands', 'UMI', '581', 'United States Minor Outlying Islands');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('VI', 'NA', 'United States Virgin Islands', 'VIR', '850', 'United States Virgin Islands');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('UY', 'SA', 'Uruguay', 'URY', '858', 'Eastern Republic of Uruguay');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('UZ', 'AS', 'Uzbekistan', 'UZB', '860', 'Republic of Uzbekistan');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('VU', 'OC', 'Vanuatu', 'VUT', '548', 'Republic of Vanuatu');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('VE', 'SA', 'Venezuela', 'VEN', '862', 'Bolivarian Republic of Venezuela');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('VN', 'AS', 'Vietnam', 'VNM', '704', 'Socialist Republic of Vietnam');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('WF', 'OC', 'Wallis and Futuna', 'WLF', '876', 'Wallis and Futuna');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('EH', 'AF', 'Western Sahara', 'ESH', '732', 'Western Sahara');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('YE', 'AS', 'Yemen', 'YEM', '887', 'Yemen');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('ZM', 'AF', 'Zambia', 'ZMB', '894', 'Republic of Zambia');
+INSERT INTO COUNTRIES (country_code, CONTINENT_CODE, COUNTRY_NAME, ISO3, COUNTRY_NUMBER, FULL_NAME) VALUES ('ZW', 'AF', 'Zimbabwe', 'ZWE', '716', 'Republic of Zimbabwe');
+
+
+INSERT INTO users (enabled, lastname, mail, name, password, user_role, username) VALUES
+  (TRUE, 'Kowalski', 'kowalski@xx.pl', 'Janek', '$2a$10$Q7Z7QPciJE0ZRE25ThduwO4qG4tmUL99Gs1Rpv7PcPScYZ9X2uV56', 1,
+   'kowalskij');
+INSERT INTO trip (date_from, date_to, title, description, rate, user_id) VALUES
+  ('2018-01-01', '2018-02-02', 'Great trip',
+   'Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non',
+   1, 1);
+INSERT INTO trip (date_from, date_to, title, description, rate, user_id) VALUES
+  ('2018-03-03', '2018-04-04', 'Nice trip',
+   'Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non',
+   2, 1);
+INSERT INTO trip (date_from, date_to, title, description, rate, user_id) VALUES
+  ('2018-05-06', '2018-06-06', 'Spoko trip',
+   'Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non',
+   3, 1);
+INSERT INTO trip (date_from, date_to, title, description, rate, user_id) VALUES
+  ('2018-07-07', '2018-08-08', 'Spoko trip',
+   'Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non',
+   4, 1);
+INSERT INTO trip (date_from, date_to, title, description, rate, user_id) VALUES
+  ('2018-09-09', '2018-10-10', 'Spoko trip',
+   'Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non',
+   5, 1);
+INSERT INTO trip (date_from, date_to, title, description, rate, user_id) VALUES
+  ('2018-11-11', '2018-12-12', 'Spoko trip',
+   'Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non',
+   4, 1);
+INSERT INTO trip (date_from, date_to, title, description, rate, user_id) VALUES
+  ('2017-10-06', '2017-12-06', 'Tłusty trip',
+   'Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non',
+   3, 1);
+INSERT INTO trip (date_from, date_to, title, description, rate, user_id) VALUES
+  ('2017-01-06', '2017-02-06', 'Gruby trip',
+   'Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non',
+   2, 1);
+INSERT INTO trip (date_from, date_to, title, description, rate, user_id) VALUES
+  ('2017-03-06', '2017-04-06', 'Trip alkoholika',
+   'Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non',
+   1, 1);
+
+INSERT INTO trip_country (trip_id, country_id) VALUES (1, 2);
+INSERT INTO trip_country (trip_id, country_id) VALUES (1, 4);
+INSERT INTO trip_country (trip_id, country_id) VALUES (1, 6);
+INSERT INTO trip_country (trip_id, country_id) VALUES (1, 8);
+INSERT INTO trip_country (trip_id, country_id) VALUES (2, 10);
+INSERT INTO trip_country (trip_id, country_id) VALUES (2, 12);
+INSERT INTO trip_country (trip_id, country_id) VALUES (2, 14);
+INSERT INTO trip_country (trip_id, country_id) VALUES (2, 16);
+INSERT INTO trip_country (trip_id, country_id) VALUES (3, 18);
+INSERT INTO trip_country (trip_id, country_id) VALUES (3, 20);
+INSERT INTO trip_country (trip_id, country_id) VALUES (3, 22);
+INSERT INTO trip_country (trip_id, country_id) VALUES (3, 24);
+INSERT INTO trip_country (trip_id, country_id) VALUES (3, 26);
+INSERT INTO trip_country (trip_id, country_id) VALUES (4, 28);
+INSERT INTO trip_country (trip_id, country_id) VALUES (4, 30);
+INSERT INTO trip_country (trip_id, country_id) VALUES (4, 32);
+INSERT INTO trip_country (trip_id, country_id) VALUES (4, 34);
+INSERT INTO trip_country (trip_id, country_id) VALUES (4, 36);
+INSERT INTO trip_country (trip_id, country_id) VALUES (5, 38);
+INSERT INTO trip_country (trip_id, country_id) VALUES (5, 40);
+INSERT INTO trip_country (trip_id, country_id) VALUES (5, 42);
+INSERT INTO trip_country (trip_id, country_id) VALUES (5, 44);
+INSERT INTO trip_country (trip_id, country_id) VALUES (5, 46);
+INSERT INTO trip_country (trip_id, country_id) VALUES (6, 48);
+INSERT INTO trip_country (trip_id, country_id) VALUES (6, 50);
+INSERT INTO trip_country (trip_id, country_id) VALUES (6, 52);
+INSERT INTO trip_country (trip_id, country_id) VALUES (6, 54);
+INSERT INTO trip_country (trip_id, country_id) VALUES (6, 56);
+INSERT INTO trip_country (trip_id, country_id) VALUES (7, 58);
+INSERT INTO trip_country (trip_id, country_id) VALUES (7, 60);
+INSERT INTO trip_country (trip_id, country_id) VALUES (7, 62);
+INSERT INTO trip_country (trip_id, country_id) VALUES (7, 64);
+INSERT INTO trip_country (trip_id, country_id) VALUES (7, 66);
+INSERT INTO trip_country (trip_id, country_id) VALUES (8, 68);
+INSERT INTO trip_country (trip_id, country_id) VALUES (8, 70);
+INSERT INTO trip_country (trip_id, country_id) VALUES (8, 72);
+INSERT INTO trip_country (trip_id, country_id) VALUES (8, 74);
+INSERT INTO trip_country (trip_id, country_id) VALUES (8, 76);
+INSERT INTO trip_country (trip_id, country_id) VALUES (9, 78);
+INSERT INTO trip_country (trip_id, country_id) VALUES (9, 80);
+INSERT INTO trip_country (trip_id, country_id) VALUES (9, 82);
+INSERT INTO trip_country (trip_id, country_id) VALUES (9, 84);
+INSERT INTO trip_country (trip_id, country_id) VALUES (9, 86);
+
+INSERT INTO users_user_trips (users_id, user_trips_id) VALUES (1, 1);
+INSERT INTO users_user_trips (users_id, user_trips_id) VALUES (1, 2);
+INSERT INTO users_user_trips (users_id, user_trips_id) VALUES (1, 3);
+INSERT INTO users_user_trips (users_id, user_trips_id) VALUES (1, 4);
+INSERT INTO users_user_trips (users_id, user_trips_id) VALUES (1, 5);
+INSERT INTO users_user_trips (users_id, user_trips_id) VALUES (1, 6);
+INSERT INTO users_user_trips (users_id, user_trips_id) VALUES (1, 7);
+INSERT INTO users_user_trips (users_id, user_trips_id) VALUES (1, 8);
+INSERT INTO users_user_trips (users_id, user_trips_id) VALUES (1, 9);

@@ -1,35 +1,23 @@
-<mat-toolbar color="primary">
-  <mat-toolbar-row>
-    <span class="example-fill-remaining-space"></span>
-    <span class="align-center"></span>
-    <span class="example-spacer"></span>
-
-    <button mat-button>About</button>
-    <button mat-button>Contact</button>
-  </mat-toolbar-row>
-</mat-toolbar>
-<mat-card class="example-card">
-  <mat-card-header>
-    <mat-card-title>Login</mat-card-title>
-  </mat-card-header>
-  <mat-card-content>
-    <form class="example-form">
-      <table class="example-full-width" cellspacing="0">
-        <tr>
-          <td>
-            <mat-form-field class="example-full-width">
-              <input matInput placeholder="Username" [(ngModel)]="username" name="username" required>
-            </mat-form-field>
-          </td>
-        </tr>
-        <tr>
-          <td><mat-form-field class="example-full-width">
-            <input matInput placeholder="Password" [(ngModel)]="password"type="password" name="password" required>
-          </mat-form-field></td>
-        </tr></table>
-    </form>
-  </mat-card-content>
-  <mat-card-actions>
-    <button mat-raised-button (click)="login()" color="primary">Login</button>
-  </mat-card-actions>
-</mat-card>
+<div class="login-wrapper">
+  <form class="login">
+    <section class="title">
+      <h3 class="welcome">Welcome to</h3>
+      TriPPlanner
+      <h5 class="hint">User your login to sign in</h5>
+    </section>
+    <div class="login-group">
+      <input type="text" id="login" class="username"
+             name="username" placeholder="Username" [(ngModel)]="username">
+      <input class="password" type="password" placeholder="Password"
+             name="password" [(ngModel)]="password">
+      <div class="checkbox">
+        <input type="checkbox" id="remeberMe">
+        <label for="remeberMe">Remeber me</label>
+      </div>
+      <div class="error active">
+        Invalid username or password
+      </div>
+      <button class="btn btn-primary" (click)="login()">Next</button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,16 @@
+<div class="row">
+<div [ngClass]="selectedTrip != null ? 'col-md-4': 'col-md-3'" *ngFor="let trip of trips">
+  <a class="card clickable" (click)="onSelectTrip(trip)">
+    <div class="card-img">
+      <img src="https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+  </div>
+  <div class="card-block">
+      <h4 class="card-title">{{trip.title}}</h4>
+  </div>
+  <ul class="list-group list-group-flush">
+      <li class="list-group-item">Trip started: {{trip.dateFrom}}</li>
+      <li class="list-group-item">Trip ended: {{trip.dateTo}}</li>
+  </ul>
+  </a>
+</div>
+</div>

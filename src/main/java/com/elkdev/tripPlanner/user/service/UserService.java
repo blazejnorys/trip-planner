@@ -26,7 +26,7 @@ public class UserService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
         User user = userRepository.findByUsername(s);
-        if(user == null){
+        if (user == null) {
             throw new UsernameNotFoundException("Invalid username or password.");
         }
         return new org.springframework.security.core.userdetails.User(user.getUsername(), user.getPassword(), getAuthority(user));
@@ -36,8 +36,8 @@ public class UserService implements UserDetailsService {
         return Arrays.asList(new SimpleGrantedAuthority(user.getUserRole().getKod()));
     }
 
-    public User findByUsername(String username){
-       return userRepository.findByUsername(username);
+    public User findByUsername(String username) {
+        return userRepository.findByUsername(username);
     }
 
     public User save(User user) {
@@ -49,6 +49,8 @@ public class UserService implements UserDetailsService {
     }
 
     public List<User> findAll() {
-       return userRepository.findAll();
+        return userRepository.findAll();
     }
 }
+
+

@@ -1,0 +1,20 @@
+.circle-border {
+  background-color:#5050A9;
+  border: 3px solid #281336;
+  height:20px;
+  width:20px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  display: inline-block;
+
+}
+
+.circle-border-empty {
+  border: 3px solid ;
+  height:20px;
+  width:20px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  display: inline-block;
+}
+

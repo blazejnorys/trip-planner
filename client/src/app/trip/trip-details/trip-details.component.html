@@ -1,0 +1,28 @@
+<div class="col-md-12" *ngIf="selectedTrip!=null">
+  <div class="card">
+    <div class="card-img">
+      <img src="https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">    </div>
+    <div class="card-block">
+      <h4 class="card-title">{{selectedTrip.title}}</h4>
+      <div class="card-text">{{selectedTrip.description}}</div>
+      Visited countries:
+      <ul class="list-unstyled">
+        <li *ngFor="let country of selectedTrip.country"><b>{{country.countryName}}</b></li>
+      </ul>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Trip started: {{selectedTrip.dateFrom}}</li>
+      <li class="list-group-item">Trip ended: {{selectedTrip.dateTo}}</li>
+    </ul>
+    <div class="card-block">
+    <div class="card-text">
+    <div class="circle-border" *ngFor="let item of arrayOne(selectedTrip.rate); let i = index;"></div>
+    <div class="circle-border-empty" *ngFor="let item of arrayOne(5-selectedTrip.rate); let i = index;"></div>
+    </div>
+    </div>
+      <div class="card-footer">
+      <a href="..." class="btn btn-sm btn-link">Action 1</a>
+      <a href="..." class="btn btn-sm btn-link">Action 2</a>
+    </div>
+  </div>
+</div>

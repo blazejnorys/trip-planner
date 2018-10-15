@@ -1,4 +1,4 @@
-package com.elkdev.tripPlanner.user.model;
+package com.elkdev.tripPlanner.security.model;
 
 public class LoginUser {
 

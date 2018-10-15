@@ -1,7 +1,7 @@
 package com.elkdev.tripPlanner.security.configuration;
 
 
-import com.elkdev.tripPlanner.user.model.LoginUser;
+import com.elkdev.tripPlanner.security.model.LoginUser;
 import com.elkdev.tripPlanner.user.model.User;
 import com.elkdev.tripPlanner.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/token")
+@CrossOrigin
 public class AuthenticationController {
 
     @Autowired

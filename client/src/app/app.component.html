@@ -1,1 +1,29 @@
-<app-login></app-login>
+
+
+
+<div class="main-container">
+    <app-header></app-header>
+  <div class="content-container">
+    <div class="content-area">
+      <router-outlet></router-outlet>
+    </div>
+    <clr-vertical-nav *ngIf="shouldRenderNavBar()" [clrVerticalNavCollapsible]="true" [(clrVerticalNavCollapsed)]="collapsed">
+      <a clrVerticalNavLink routerLink="./main-page" routerLinkActive="active">
+        <clr-icon clrVerticalNavIcon shape="home"></clr-icon>
+        Main-page
+      </a>
+      <a clrVerticalNavLink routerLink="./world-map" routerLinkActive="active">
+        <clr-icon clrVerticalNavIcon shape="map"></clr-icon>
+        World map
+      </a>
+      <a clrVerticalNavLink routerLink="./plan" routerLinkActive="active">
+        <clr-icon clrVerticalNavIcon shape="airplane"></clr-icon>
+        Where are we going?
+      </a>
+      <a clrVerticalNavLink routerLink="./achievements" routerLinkActive="active">
+        <clr-icon clrVerticalNavIcon shape="bullseye"></clr-icon>
+        Your achievements
+      </a>
+    </clr-vertical-nav>
+  </div>
+</div>
