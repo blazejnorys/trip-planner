@@ -1,56 +1,73 @@
 <h1>Create your next trip</h1>
-<form clrForm (ngSubmit)="onSubmit(f)" #f="ngForm">
-  <clr-input-container>
-    <label for="title">Title</label>
-    <input clrInput type="text" [ngModel]="title" name="title" id="title"/>
-  </clr-input-container>
-  <clr-textarea-container>
-    <label for="description">Description</label>
-    <textarea clrTextarea id="description" rows="5" ngModel name="description"></textarea>
-  </clr-textarea-container>
-  <p></p>
-  <clr-dropdown>
-    <button type="button" class="btn btn-outline-primary" clrDropdownTrigger>
-      Add country
-      <clr-icon shape="caret down"></clr-icon>
-    </button>
-    <clr-dropdown-menu clrPosition="bottom-right" *clrIfOpen>
-      <label class="dropdown-header">Select contry</label>
-      <clr-dropdown *ngFor="let continent of continents">
-        <button type="button" clrDropdownTrigger>{{continent.continentName}}</button>
-        <clr-dropdown-menu>
-          <button type="button" clrDropdownItem (click)="selectCountry(country)" name="addCountryButton" ngModel
-                  *ngFor="let country of continent.countryList">
-            {{country.countryName}} <img [src]="country.countryFlag"
-                                         onerror="this.src='';">
-          </button>
+<form clrForm [formGroup]="newPlanForm" (ngSubmit)="onSubmit()">
+    <clr-input-container>
+        <label for="title">Title</label>
+        <input clrInput type="text" id="title" formControlName="title"/>
+        <clr-control-error>This field is required!</clr-control-error>
+    </clr-input-container>
+    <clr-textarea-container>
+        <label for="description">Description</label>
+        <textarea clrTextarea id="description" rows="5" formControlName="description"
+                style="width: auto"></textarea>
+        <clr-control-error>This field is required!</clr-control-error>
+    </clr-textarea-container>
+    <p></p>
+
+    <clr-dropdown>
+        <button type="button" class="btn btn-outline-primary" clrDropdownTrigger>
+            Add country
+            <clr-icon shape="caret down"></clr-icon>
+        </button>
+        <clr-dropdown-menu clrPosition="bottom-right" *clrIfOpen>
+            <label class="dropdown-header">Select contry</label>
+            <clr-dropdown *ngFor="let continent of continents">
+                <button type="button" clrDropdownTrigger>{{continent.continentName}}</button>
+                <clr-dropdown-menu>
+                    <button type="button" clrDropdownItem (click)="onAddCountry(country)"
+                            *ngFor="let country of continent.countryList">
+                        {{country.countryName}}
+                        <img [src]="country.countryFlag" onerror="this.src='';">
+                    </button>
+                </clr-dropdown-menu>
+            </clr-dropdown>
         </clr-dropdown-menu>
-      </clr-dropdown>
-    </clr-dropdown-menu>
-  </clr-dropdown>
-  <p></p>
-  <table class="table" *ngIf="selectedCountries.length>0">
-    <thead>
-    <tr>
-      <th>Country:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr *ngFor="let country of selectedCountries" >
-      <td>{{country.countryName}} <img [src]="country.countryFlag"
-                                       onerror="this.src='';"></td>
-    </tr>
-    </tbody>
-  </table>
+    </clr-dropdown>
 
-  <div class="form-group">
-    <label for="beginningDate">Beginning date</label>
-    <input type="date" id="beginningDate" name="beginningDate" ngModel clrDate>
-  </div>
+    <p></p>
+            <table class="table table-noborder" *ngIf="newPlanForm.get('countries').length>0" id="selectedCountries"
+                    formArrayName="countries">
+                <thead>
+                <tr>
+                    <th>Country</th>
+                    <th class="flagAndRemoveColumn">Flag</th>
+                    <th class="flagAndRemoveColumn">Remove</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let country of newPlanForm.get('countries').value;let i = index">
+                    <td>{{country.countryName}}</td>
+                    <td class="flagAndRemoveColumn"><img [src]="country.countryFlag" onerror="this.src='';"></td>
+                    <td class="flagAndRemoveColumn">
+                        <a (click)="removeCountryFromList(i)">
+                            <clr-icon class="clickableIcon" shape="times-circle"></clr-icon>
+                        </a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
 
-  <div class="form-group">
-    <label for="endingDate">Ending date</label>
-    <input type="date" id="endingDate" name="endingDate" ngModel clrDate>
-  </div>
-  <button class="btn-primary" type="submit">Hit Da Baton</button>
+    <clr-control-error class="customErrors" *ngIf="alreadyAddedCountryError.isError">{{alreadyAddedCountryError.errorMessage}}</clr-control-error>
+    <div class="form-group">
+        <label for="beginningDate">Beginning date</label>
+        <input type="date" id="beginningDate" formControlName="beginningDate" clrDate>
+    </div>
+
+    <div class="form-group">
+        <label for="endingDate">Ending date</label>
+        <input type="date" id="endingDate" formControlName="endingDate" clrDate>
+    </div>
+
+    <clr-control-error class="customErrors" *ngIf="incorrectDateRangeError.isError">{{incorrectDateRangeError.errorMessage}}</clr-control-error>
+    <button class="btn btn-primary" type="submit">Add trip</button>
 </form>
+

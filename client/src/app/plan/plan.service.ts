@@ -14,7 +14,6 @@ export class PlanService {
 
   getAllContintesWithCountries(): Observable<any> {
     return this.http.get("http://localhost:8080/continent/get-all").pipe(
-      tap(trip => console.log(trip)),
       catchError(this.handleError('getContinents', []))
     );
   }
@@ -32,4 +31,9 @@ export class PlanService {
       return of(result as T);
     };
   }
+
+  submitNewPlan(plan:any):Observable<any>{
+    return this.http.post("http://localhost:8080/trip/createNewTrip", plan);
+  }
+
 }

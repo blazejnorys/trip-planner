@@ -5,3 +5,21 @@
 .table td, .table th {
   text-align: left;
 }
+
+.customErrors {
+  color: #c92100;
+}
+
+.clickableIcon{
+  cursor: pointer;
+  color: #0077b7
+}
+
+.flagAndRemoveColumn{
+  width: 20%;
+  text-align: center !important;
+}
+
+.clickableIcon:hover{
+  color: #c92100;
+}
